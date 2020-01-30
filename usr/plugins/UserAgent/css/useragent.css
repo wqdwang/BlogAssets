@@ -13,7 +13,7 @@ Version: 1.0.6
     font-size: 75%;
     border-radius: .25em;
 	margin-left: 5px;
-	max-width: 130px;
+	/*max-width: 130px;*/
 	opacity: 0.8;
 	vertical-align: middle;
 	white-space: nowrap;
@@ -31,9 +31,9 @@ Version: 1.0.6
 
 .ua-hover {
 	opacity: 0;
-	transition: 1s;
+	transition: 0.5s;
 }
 
-div.comment-body:hover .ua-hover {
+div.comment-content-wrap:hover .ua-hover {
     opacity: 0.8;
 }
